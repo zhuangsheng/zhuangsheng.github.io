@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zhuangsheng&#39;s blog</title>
+    <link>http://zhuangsheng.github.io/</link>
+    <description>Recent content on zhuangsheng&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://zhuangsheng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://zhuangsheng.github.io/about/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://zhuangsheng.github.io/about/</guid>
+      
+        <description>&lt;p&gt;尘世间一迷途程序猿&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zhuangsheng.github.io/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux Tools</title>
+      <link>http://zhuangsheng.github.io/post/linux-tools/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://zhuangsheng.github.io/post/linux-tools/</guid>
+      
+        <description>
+
+&lt;h3 id=&#34;1-autojump&#34;&gt;1. autojump&lt;/h3&gt;
+
+&lt;p&gt;它的主要作用是记录常用目录,实现快速跳转,如&lt;code&gt;cd /var/www/html/&lt;/code&gt;,只需输入&lt;code&gt;j h&lt;/code&gt;即可实现跳转
+安装:
+    git下载&lt;a href=&#34;https://github.com/joelthelion/autojump&#34;&gt;autojump&lt;/a&gt;
+    &lt;code&gt;bash
+    git clone git@github.com:joelthelion/autojump.git
+    cd autojump
+    python install.py
+&lt;/code&gt;
+    安装完后,再在&lt;code&gt;~/.bashrc&lt;/code&gt;加入下面一行
+    &lt;code&gt;[[-s /root/.autojump/etc/profile.d/autojump.sh]] &amp;amp;&amp;amp; source /root/.autojump/etc/profile.d/autojump.sh&lt;/code&gt;
+使用:
+    j -h查看帮助
+    j -a [目录] 加入目录
+    j -i [权重] 增加常用目录的权重(在该目录下执行)
+    j -d [权重] 减少权重
+    j -s 查看变化
+    j &amp;ndash;purge　显示数据库中统计&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
